@@ -1,0 +1,27 @@
+{
+  "name": "commitizen-tools",
+  "version": "1.0.0",
+  "description": "Commitizen tools",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alckor127/commitizen-tools.git"
+  },
+  "author": "Francisco Luis Rios Vega (http://devfran.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alckor127/commitizen-tools/issues"
+  },
+  "homepage": "https://github.com/alckor127/commitizen-tools#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
